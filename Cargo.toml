@@ -1,0 +1,8 @@
+[package]
+name = "zjsidebar"
+version = "0.1.0"
+authors = ["zty012 <me@zty012.de>"]
+edition = "2018"
+
+[dependencies]
+zellij-tile = "0.41.1"

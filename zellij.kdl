@@ -1,0 +1,11 @@
+layout {
+  pane split_direction="vertical" {
+    pane size=25 {
+      plugin location="file:target/wasm32-wasi/debug/zjsidebar.wasm"
+    }
+    pane
+  }
+  pane borderless=true size=1 {
+    plugin location="status-bar"
+  }
+}
